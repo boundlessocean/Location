@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D23376ABF764805126FD2E7 /* libPods-onestepcar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4BD712A2AEFE5BD4A80C2FBE /* libPods-onestepcar.a */; };
+		8E1C5A551F4EAB21000519C9 /* RouteAnnotation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C5A541F4EAB21000519C9 /* RouteAnnotation.mm */; };
+		8E1C5A581F4EAB3F000519C9 /* UIImage+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C5A571F4EAB3F000519C9 /* UIImage+Rotate.m */; };
+		8E1C5A5B1F4EC931000519C9 /* OTPlansInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C5A5A1F4EC931000519C9 /* OTPlansInfoView.m */; };
+		8E1C5A5E1F4EC990000519C9 /* OTInfoDetaiView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C5A5D1F4EC990000519C9 /* OTInfoDetaiView.m */; };
+		8E1C5A611F4ED811000519C9 /* OTPlaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1C5A601F4ED811000519C9 /* OTPlaceView.m */; };
+		8E2318241F4E9DC300D16075 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E2318231F4E9DC300D16075 /* ViewController.xib */; };
+		8EDFB9F91F4E94A600F9938D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFB9F81F4E94A600F9938D /* main.m */; };
+		8EDFB9FC1F4E94A600F9938D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFB9FB1F4E94A600F9938D /* AppDelegate.m */; };
+		8EDFB9FF1F4E94A600F9938D /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8EDFB9FE1F4E94A600F9938D /* ViewController.mm */; };
+		8EDFBA041F4E94A600F9938D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EDFBA031F4E94A600F9938D /* Assets.xcassets */; };
+		8EDFBA071F4E94A600F9938D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EDFBA051F4E94A600F9938D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BD712A2AEFE5BD4A80C2FBE /* libPods-onestepcar.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-onestepcar.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6563D07A6A3066838099DA21 /* Pods-onestepcar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onestepcar.debug.xcconfig"; path = "Pods/Target Support Files/Pods-onestepcar/Pods-onestepcar.debug.xcconfig"; sourceTree = "<group>"; };
+		8E1C5A531F4EAB21000519C9 /* RouteAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RouteAnnotation.h; sourceTree = "<group>"; };
+		8E1C5A541F4EAB21000519C9 /* RouteAnnotation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = RouteAnnotation.mm; sourceTree = "<group>"; };
+		8E1C5A561F4EAB3F000519C9 /* UIImage+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Rotate.h"; sourceTree = "<group>"; };
+		8E1C5A571F4EAB3F000519C9 /* UIImage+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Rotate.m"; sourceTree = "<group>"; };
+		8E1C5A591F4EC931000519C9 /* OTPlansInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPlansInfoView.h; sourceTree = "<group>"; };
+		8E1C5A5A1F4EC931000519C9 /* OTPlansInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPlansInfoView.m; sourceTree = "<group>"; };
+		8E1C5A5C1F4EC990000519C9 /* OTInfoDetaiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTInfoDetaiView.h; sourceTree = "<group>"; };
+		8E1C5A5D1F4EC990000519C9 /* OTInfoDetaiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTInfoDetaiView.m; sourceTree = "<group>"; };
+		8E1C5A5F1F4ED811000519C9 /* OTPlaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTPlaceView.h; sourceTree = "<group>"; };
+		8E1C5A601F4ED811000519C9 /* OTPlaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTPlaceView.m; sourceTree = "<group>"; };
+		8E2318231F4E9DC300D16075 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		8EDFB9F41F4E94A600F9938D /* onestepcar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = onestepcar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EDFB9F81F4E94A600F9938D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8EDFB9FA1F4E94A600F9938D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8EDFB9FB1F4E94A600F9938D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8EDFB9FD1F4E94A600F9938D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8EDFB9FE1F4E94A600F9938D /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		8EDFBA031F4E94A600F9938D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8EDFBA061F4E94A600F9938D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8EDFBA081F4E94A600F9938D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3F1687F8FD30999EF9DE553 /* Pods-onestepcar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-onestepcar.release.xcconfig"; path = "Pods/Target Support Files/Pods-onestepcar/Pods-onestepcar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EDFB9F11F4E94A600F9938D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D23376ABF764805126FD2E7 /* libPods-onestepcar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EDFB9EB1F4E94A600F9938D = {
+			isa = PBXGroup;
+			children = (
+				8EDFB9F61F4E94A600F9938D /* onestepcar */,
+				8EDFB9F51F4E94A600F9938D /* Products */,
+				9F5DD8322CAE2B89B96ED0D4 /* Pods */,
+				AB714C652FB3F0FD7FFDC436 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8EDFB9F51F4E94A600F9938D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EDFB9F41F4E94A600F9938D /* onestepcar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8EDFB9F61F4E94A600F9938D /* onestepcar */ = {
+			isa = PBXGroup;
+			children = (
+				8EDFB9FA1F4E94A600F9938D /* AppDelegate.h */,
+				8EDFB9FB1F4E94A600F9938D /* AppDelegate.m */,
+				8EDFB9FD1F4E94A600F9938D /* ViewController.h */,
+				8EDFB9FE1F4E94A600F9938D /* ViewController.mm */,
+				8EDFBA031F4E94A600F9938D /* Assets.xcassets */,
+				8EDFBA051F4E94A600F9938D /* LaunchScreen.storyboard */,
+				8EDFBA081F4E94A600F9938D /* Info.plist */,
+				8E1C5A561F4EAB3F000519C9 /* UIImage+Rotate.h */,
+				8E1C5A571F4EAB3F000519C9 /* UIImage+Rotate.m */,
+				8EDFB9F71F4E94A600F9938D /* Supporting Files */,
+				8E2318231F4E9DC300D16075 /* ViewController.xib */,
+				8E1C5A591F4EC931000519C9 /* OTPlansInfoView.h */,
+				8E1C5A5A1F4EC931000519C9 /* OTPlansInfoView.m */,
+				8E1C5A5C1F4EC990000519C9 /* OTInfoDetaiView.h */,
+				8E1C5A5D1F4EC990000519C9 /* OTInfoDetaiView.m */,
+				8E1C5A5F1F4ED811000519C9 /* OTPlaceView.h */,
+				8E1C5A601F4ED811000519C9 /* OTPlaceView.m */,
+			);
+			path = onestepcar;
+			sourceTree = "<group>";
+		};
+		8EDFB9F71F4E94A600F9938D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8E1C5A531F4EAB21000519C9 /* RouteAnnotation.h */,
+				8E1C5A541F4EAB21000519C9 /* RouteAnnotation.mm */,
+				8EDFB9F81F4E94A600F9938D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9F5DD8322CAE2B89B96ED0D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6563D07A6A3066838099DA21 /* Pods-onestepcar.debug.xcconfig */,
+				C3F1687F8FD30999EF9DE553 /* Pods-onestepcar.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AB714C652FB3F0FD7FFDC436 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4BD712A2AEFE5BD4A80C2FBE /* libPods-onestepcar.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EDFB9F31F4E94A600F9938D /* onestepcar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EDFBA0B1F4E94A600F9938D /* Build configuration list for PBXNativeTarget "onestepcar" */;
+			buildPhases = (
+				1ABAB6A5E3762CFE831365F8 /* [CP] Check Pods Manifest.lock */,
+				8EDFB9F01F4E94A600F9938D /* Sources */,
+				8EDFB9F11F4E94A600F9938D /* Frameworks */,
+				8EDFB9F21F4E94A600F9938D /* Resources */,
+				40380102E35E4C61AB7B5787 /* [CP] Embed Pods Frameworks */,
+				87D9BF5DDF21D73BA98F2EAD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = onestepcar;
+			productName = onestepcar;
+			productReference = 8EDFB9F41F4E94A600F9938D /* onestepcar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EDFB9EC1F4E94A600F9938D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = lemon;
+				TargetAttributes = {
+					8EDFB9F31F4E94A600F9938D = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 9ZP4Z7C98A;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8EDFB9EF1F4E94A600F9938D /* Build configuration list for PBXProject "onestepcar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EDFB9EB1F4E94A600F9938D;
+			productRefGroup = 8EDFB9F51F4E94A600F9938D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EDFB9F31F4E94A600F9938D /* onestepcar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EDFB9F21F4E94A600F9938D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EDFBA071F4E94A600F9938D /* LaunchScreen.storyboard in Resources */,
+				8E2318241F4E9DC300D16075 /* ViewController.xib in Resources */,
+				8EDFBA041F4E94A600F9938D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ABAB6A5E3762CFE831365F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		40380102E35E4C61AB7B5787 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-onestepcar/Pods-onestepcar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87D9BF5DDF21D73BA98F2EAD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-onestepcar/Pods-onestepcar-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EDFB9F01F4E94A600F9938D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1C5A551F4EAB21000519C9 /* RouteAnnotation.mm in Sources */,
+				8EDFB9FF1F4E94A600F9938D /* ViewController.mm in Sources */,
+				8EDFB9FC1F4E94A600F9938D /* AppDelegate.m in Sources */,
+				8E1C5A611F4ED811000519C9 /* OTPlaceView.m in Sources */,
+				8E1C5A5E1F4EC990000519C9 /* OTInfoDetaiView.m in Sources */,
+				8E1C5A581F4EAB3F000519C9 /* UIImage+Rotate.m in Sources */,
+				8E1C5A5B1F4EC931000519C9 /* OTPlansInfoView.m in Sources */,
+				8EDFB9F91F4E94A600F9938D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8EDFBA051F4E94A600F9938D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8EDFBA061F4E94A600F9938D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8EDFBA091F4E94A600F9938D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8EDFBA0A1F4E94A600F9938D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EDFBA0C1F4E94A600F9938D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6563D07A6A3066838099DA21 /* Pods-onestepcar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZP4Z7C98A;
+				INFOPLIST_FILE = onestepcar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.onestepcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8EDFBA0D1F4E94A600F9938D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3F1687F8FD30999EF9DE553 /* Pods-onestepcar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ZP4Z7C98A;
+				INFOPLIST_FILE = onestepcar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lemon.onestepcar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EDFB9EF1F4E94A600F9938D /* Build configuration list for PBXProject "onestepcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDFBA091F4E94A600F9938D /* Debug */,
+				8EDFBA0A1F4E94A600F9938D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EDFBA0B1F4E94A600F9938D /* Build configuration list for PBXNativeTarget "onestepcar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EDFBA0C1F4E94A600F9938D /* Debug */,
+				8EDFBA0D1F4E94A600F9938D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EDFB9EC1F4E94A600F9938D /* Project object */;
+}

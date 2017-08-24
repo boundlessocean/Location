@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11762"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="mapView" destination="3d3-vJ-oFr" id="4YX-Wg-SUh"/>
+                <outlet property="view" destination="iN0-l3-epB" id="S9X-MP-1PP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3d3-vJ-oFr" customClass="BMKMapView">
+                    <rect key="frame" x="0.0" y="64" width="375" height="503"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="3d3-vJ-oFr" secondAttribute="bottom" constant="100" id="MfG-XV-66Z"/>
+                <constraint firstAttribute="trailing" secondItem="3d3-vJ-oFr" secondAttribute="trailing" id="b0m-HY-sRT"/>
+                <constraint firstItem="3d3-vJ-oFr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="gTp-38-sbW"/>
+                <constraint firstItem="3d3-vJ-oFr" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="64" id="uFw-wl-S0D"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
